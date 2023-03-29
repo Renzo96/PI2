@@ -82,4 +82,4 @@ for target_return in returns_range:
     frontier_return.append(target_return)
 
 # Plot the efficient frontier
-st.line_chart(pd.DataFrame({'returns': frontier_return, 'volatility': frontier_volatility}))
+st.scatter_chart(pd.DataFrame({'returns': frontier_return, 'volatility': frontier_volatility}))
