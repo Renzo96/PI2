@@ -19,6 +19,30 @@ import pandas_datareader.data as web
 from scipy.optimize import minimize
 
 
+st.image('https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png')
+st.sidebar.markdown('''
+# **Proyecto Individual Henry Bootcamp**
+---
+''')  
+st.markdown('***')
+
+st.sidebar.markdown('Frontera de eficiencia de Markowitz')
+
+st.markdown('## ¿Cómo funciona el modelo de Markowitz?')
+st.markdown('''
+
+El modelo Markowitz es un modelo para optimizar la distribución de inversiones en una cartera.
+Se basa en el llamado criterio de varianza media, que tiene como objetivo maximizar el valor esperado y minimizar el de la varianza.
+''')
+
+
+
+st.sidebar.markdown('''
+---
+Creado por [Renzo Sosa](https://github.com/Renzo96).
+''')
+
+
 # Define the portfolio
 portfolio = ['ODFL','MNST','AZO','UNH','ORLY','ACGL','WEC','CHD','NEE','LMT']
 
