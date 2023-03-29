@@ -11,3 +11,4 @@ matplotlib
 seaborn
 missingno
 openpyxl
+scipy.optimize
