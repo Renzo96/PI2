@@ -34,7 +34,20 @@ st.sidebar.header('Parametros de portafolio')
 st.sidebar.subheader('Acciones')
 acciones_select = st.sidebar.multiselect('Seleccione las acciones del portafolio',options=acciones,default=acciones,key='select')
 
-st.sidebar.markdown('Frontera de eficiencia de Markowitz')
+st.sidebar.subheader('Inversión inicial(USD)')
+capital_inicial = st.sidebar.number_input('Inversión inicial',value=100000,step=1000,label_visibility='collapsed')
+
+st.sidebar.subheader('Fecha de inicio de inversión')
+start_date = st.sidebar.date_input('Fecha',dt.date(2023,1,1),label_visibility='collapsed')
+
+#Opcion para agregar boton accion a la lista
+st.sidebar.subheader('Agregar accion al portafolio')
+text,boton = st.sidebar.columns(2)
+agregar = text.text_input('Ticket',max_chars=7,placeholder='ej. AAPL',label_visibility='collapsed')
+
+if boton.button('Agregar'):    
+    st.write('Fue agregado al universo de inversión')
+
 
 st.markdown('## ¿Cómo funciona el modelo de Markowitz?')
 st.markdown('''
