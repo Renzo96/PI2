@@ -18,6 +18,8 @@ from pandas_datareader import data as pdr
 import pandas_datareader.data as web
 from scipy.optimize import minimize
 
+acciones = ['AZO', 'TSCO', 'NEE', 'AES', 'CTVA', 'LIN', 'EXR', 'MAA', 'HES', 'COP']
+
 
 st.image('https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png')
 st.sidebar.markdown('''
@@ -25,6 +27,12 @@ st.sidebar.markdown('''
 ---
 ''')  
 st.markdown('***')
+
+
+st.sidebar.header('Parametros de portafolio')
+
+st.sidebar.subheader('Acciones')
+acciones_select = st.sidebar.multiselect('Seleccione las acciones del portafolio',options=acciones,default=acciones,key='select')
 
 st.sidebar.markdown('Frontera de eficiencia de Markowitz')
 
