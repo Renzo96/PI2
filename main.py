@@ -35,7 +35,7 @@ El modelo Markowitz es un modelo para optimizar la distribución de inversiones 
 Se basa en el llamado criterio de varianza media, que tiene como objetivo maximizar el valor esperado y minimizar el de la varianza.
 ''')
 
-
+st.image('https://miro.medium.com/v2/resize:fit:4800/format:webp/1*39ck_awHKQRmcBRgWfC44Q.png')
 
 st.sidebar.markdown('''
 ---
