@@ -5,6 +5,7 @@ Alumno Renzo Sosa
 Aclaración inicial: 
       La computadora con la que se estaba realizando el trabajo se crasheo aproximadamente a las 15:00 horas del día 28/03 mientras se intentaba deployar en streamlit
 por lo que quedo una version de prueba en github, versión que contenía el el archivo main.py, requirements y una carpeta visualizaciones la cual posteriormente se eliminó.
+        
         El portfolio que aparece en el main py fue el que arrojó el analisis, cuestión muy distinta al EDA que posteriormene se subió ya que no recuerdo exactamente como 
 hice el código que se quedó en la computadora crasheada. Dicha computadora que use para subir el readme actual y el EDA, poseen windows 7 por lo que no se puede usar visual
 studio code, si utilicé google colab para realizar un bosquejo de lo que había sido el EDA el cual recomendó el portfolio que aparece en el main.py.
