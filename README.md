@@ -10,9 +10,7 @@ hice el código que se quedó en la computadora crasheada. Dicha computadora que
 studio code, si utilicé google colab para realizar un bosquejo de lo que había sido el EDA el cual recomendó el portfolio que aparece en el main.py.
       Por último dicha computadora no me está dejando subir archivos a un repositorio nuevo, si subir a traves de arrastre a un repositorio preexistente, investigando parece ser una cuestion 
 del certificado SSL. Dicho esto, procedo a explicar el trabajo.
-      
-      
-       Para el desarrollo de este trabajo no se utilizo el concepto de correlación, concepto bastante importante a la hora del armado del portfolio. Por otro lado si se utilizó
+      Para el desarrollo de este trabajo no se utilizo el concepto de correlación, concepto bastante importante a la hora del armado del portfolio. Por otro lado si se utilizó
 el concepto de ratio de sharpe y frontera de eficiencia de Markowitz, la cual recomiendo el portfolio de mercado. El portfolio creado por Markowitz brinda, dado un 
 universo existente otorgado, la proporción exacta de cada elemento del universo otorgado para minimizar la volatilidad y maximizar el ratio de sharpe. En dicha
 recomendación puede pasar que queden fuera elementos del universo otorgado.
