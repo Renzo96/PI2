@@ -6,9 +6,8 @@ datetime
 pandas-datareader 
 plotly
 statsmodels
-statsmodels
 matplotlib
 seaborn
 missingno
 openpyxl
-scipy.optimize
+scipy
